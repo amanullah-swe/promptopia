@@ -4,7 +4,7 @@ import PromptCard from "./PromptCard";
 
 const PromptCardList = ({ data, handleTagClick }) => {
   return (
-    <div className="mt-16 propmt_layout">
+    <div className="mt-16 prompt_layout">
       {data.map((post) => (
         <PromptCard
           key={post._id}
@@ -19,19 +19,33 @@ const PromptCardList = ({ data, handleTagClick }) => {
 function Feed() {
   const [searchText, setSearchText] = useState("");
   const [posts, setPosts] = useState([]);
-  const handleSearchChange = (e) => {};
+
+  const handleSearchChange = (e) => {
+    e.preventDefault();
+    setSearchText(e.target.value);
+  };
+
+  const handleTagClick = (tag) => {
+    setSearchText(tag);
+  };
 
   useEffect(() => {
-    const fetchPost = async (params) => {
-      const response = await fetch("/api/prompt");
+    const fetchPost = async () => {
+      const response = await fetch(`/api/prompt?search=${searchText}`);
       const data = await response.json();
       setPosts(data);
     };
-    fetchPost();
-  }, []);
+    const time = setTimeout(() => {
+      fetchPost();
+    }, 500);
+    return () => {
+      clearTimeout(time);
+    };
+  }, [searchText]);
+
   return (
-    <section className="feed">
-      <form className="relative w-full flex-center">
+    <section className="feed ">
+      <form className="relative w-full flex flex-center">
         <input
           type="text"
           placeholder="Search for tag or a usename"
@@ -43,7 +57,7 @@ function Feed() {
       </form>
       <PromptCardList
         data={posts}
-        handleTagClick={() => {}}
+        handleTagClick={handleTagClick}
       />
     </section>
   );

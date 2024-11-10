@@ -17,12 +17,14 @@ function Profile({
       </h1>
       <p className=" desc text-left"> {desc}</p>
 
-      <div className="mt-16 propmt_layout">
+      <div className="mt-16 prompt_layout">
         {data.map((post) => (
           <PromptCard
             key={post._id}
             post={post}
             handleTagClick={handleTagClick}
+            handleEdit={handleEdit}
+            handleDelete={handleDelete}
           />
         ))}
       </div>
