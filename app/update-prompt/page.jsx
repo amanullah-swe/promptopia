@@ -2,9 +2,9 @@
 import React, { useEffect, useId, useState } from "react";
 import { useSession } from "next-auth/react";
 import { useSearchParams, useRouter } from "next/navigation";
-
+import { Suspense } from "react";
 import Form from "@components/Form";
-function EditPrompt() {
+function EditPrompt1() {
   const [submitting, setSubmitting] = useState(false);
   const [post, setPost] = useState({
     prompt: "",
@@ -64,4 +64,10 @@ function EditPrompt() {
   );
 }
 
-export default EditPrompt;
+export default function EditPrompt({}) {
+  return (
+    <Suspense>
+      <EditPrompt1 />
+    </Suspense>
+  );
+}

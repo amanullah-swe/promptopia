@@ -1,10 +1,9 @@
 "use client";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import Profile from "@components/Profile";
-
-function MyProfile({ params }) {
+function MyProfile1({ params }) {
   const [posts, setPosts] = useState([]);
   const router = useRouter(); // Use useRouter from next/router
   const searchParams = useSearchParams();
@@ -52,4 +51,10 @@ function MyProfile({ params }) {
   );
 }
 
-export default MyProfile;
+export default function MyProfile({ params }) {
+  return (
+    <Suspense>
+      <MyProfile1 params={params} />
+    </Suspense>
+  );
+}
