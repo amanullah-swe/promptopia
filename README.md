@@ -1,7 +1,3 @@
-# promptopia
-
-=======
-
 # 🧠 Promptopia
 
 Promptopia is a modern full-stack web application that allows users to share, discover, and manage creative AI prompts. Built with Next.js 13 (App Router), Tailwind CSS, MongoDB, and secured with Google Authentication, it’s deployed seamlessly on Vercel.
