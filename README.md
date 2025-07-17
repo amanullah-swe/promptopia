@@ -8,7 +8,7 @@ Promptopia is a modern full-stack web application that allows users to share, di
 
 ## 🌐 Live Demo
 
-## 👉 [Visit Promptopia on Vercel](https://promptopia-two-orcin.vercel.app/)
+## 👉 [Visit Promptopia](https://promptopia-two-orcin.vercel.app/)
 
 ## 📸 Preview
 
