@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # promptopia
 
 =======
@@ -84,7 +82,7 @@ yarn dev
 ### 📦 Deployment
 
 Deploy your own version of Promptopia using Vercel:
-👉 [Deploy Promptopia](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
+👉 [Deploy Promptopia](https://promptopia-two-orcin.vercel.app/)
 
 ## 📚 Resources
 
@@ -118,4 +116,3 @@ This project is licensed under the **MIT License**.
 
 > **Promptopia** – Explore the world of prompts. Made with 💖 using Next.js.
 
-> > > > > > > add66efbe37653f3e868de3b36d3be34f624d1f4
