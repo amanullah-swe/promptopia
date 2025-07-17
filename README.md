@@ -84,7 +84,7 @@ yarn dev
 ### 📦 Deployment
 
 Deploy your own version of Promptopia using Vercel:
-👉 [Deploy Promptopia on Vercel](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
+👉 [Deploy Promptopia](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
 
 ## 📚 Resources
 
