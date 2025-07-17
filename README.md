@@ -8,7 +8,7 @@ Promptopia is a modern full-stack web application that allows users to share, di
 
 ## 🌐 Live Demo
 
-👉 [Visit Promptopia on Vercel](https://your-vercel-deployment-link.vercel.app)
+👉 [Visit Promptopia on Vercel](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
 
 ---
 
@@ -96,9 +96,10 @@ If you find a bug or want to suggest a new feature, please open an issue or pull
 
 **Shaikh Amanullah**  
 📧 amaan.swe@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | [LeetCode](https://leetcode.com/your-profile) | [GitHub](https://github.com/your-username)
+🔗 [LinkedIn](https://www.linkedin.com/in/shaikh-amaanullah/) | [LeetCode](https://leetcode.com/u/Amanullah-dev/) | [GitHub](https://github.com/amanullah-swe)
 
 ---
+
 
 ## 📄 License
 
