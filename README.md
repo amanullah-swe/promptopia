@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+
 # promptopia
+
 =======
+
 # 🧠 Promptopia
 
 Promptopia is a modern full-stack web application that allows users to share, discover, and manage creative AI prompts. Built with Next.js 13 (App Router), Tailwind CSS, MongoDB, and secured with Google Authentication, it’s deployed seamlessly on Vercel.
@@ -11,14 +14,11 @@ Promptopia is a modern full-stack web application that allows users to share, di
 
 ## 🌐 Live Demo
 
-👉 [Visit Promptopia on Vercel](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
-
----
+## 👉 [Visit Promptopia on Vercel](https://promptopia-two-orcin.vercel.app/)
 
 ## 📸 Preview
 
 > 🔐 Login → 📝 Create Prompt → 🔍 Explore Others' Prompts → 👥 View Profiles
-
 
 ---
 
@@ -34,13 +34,13 @@ Promptopia is a modern full-stack web application that allows users to share, di
 
 ## 🧰 Tech Stack
 
-| Technology     | Purpose                                |
-|----------------|----------------------------------------|
-| **Next.js 13** | React Framework with App Router        |
-| **Tailwind CSS** | Utility-first styling                |
-| **MongoDB**    | NoSQL database for storing prompts     |
-| **NextAuth.js**| Authentication using Google OAuth      |
-| **Vercel**     | Deployment platform                    |
+| Technology       | Purpose                            |
+| ---------------- | ---------------------------------- |
+| **Next.js 13**   | React Framework with App Router    |
+| **Tailwind CSS** | Utility-first styling              |
+| **MongoDB**      | NoSQL database for storing prompts |
+| **NextAuth.js**  | Authentication using Google OAuth  |
+| **Vercel**       | Deployment platform                |
 
 ---
 
@@ -53,14 +53,19 @@ git clone https://github.com/your-username/promptopia.git
 cd promptopia
 
 ```
+
 ### 2. Install Dependencies
+
 ```bash
 npm install
 # or
 yarn install
 ```
+
 ### 3. Set Up Environment Variables
-Setup the following environment variables in .env file 
+
+Setup the following environment variables in .env file
+
 ```
 MONGODB_URI=your_mongodb_uri
 GOOGLE_CLIENT_ID=your_google_client_id
@@ -69,15 +74,17 @@ NEXTAUTH_URL=http://localhost:3000
 ```
 
 ### 4. Run the Development Server
+
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
 ### 📦 Deployment
+
 Deploy your own version of Promptopia using Vercel:
 👉 [Deploy Promptopia on Vercel](https://promptopia-becib9f0t-amanullahswes-projects.vercel.app/)
-
 
 ## 📚 Resources
 
@@ -103,7 +110,6 @@ If you find a bug or want to suggest a new feature, please open an issue or pull
 
 ---
 
-
 ## 📄 License
 
 This project is licensed under the **MIT License**.
@@ -112,7 +118,4 @@ This project is licensed under the **MIT License**.
 
 > **Promptopia** – Explore the world of prompts. Made with 💖 using Next.js.
 
-
-
-
->>>>>>> add66efbe37653f3e868de3b36d3be34f624d1f4
+> > > > > > > add66efbe37653f3e868de3b36d3be34f624d1f4
